@@ -1,0 +1,121 @@
+.navbar-brand {
+  margin-left: 4.5rem;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 2rem;
+  color: black !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: black !important;
+  border-radius: 20px;
+  color: white !important;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+}
+
+.heading {
+  color: grey;
+}
+.main {
+  text-align: center;
+  padding-top: 20px;
+}
+.main h1 {
+  font-size: 40px;
+  font-weight: 500 !important;
+}
+.btn {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  background: blue !important;
+  border-radius: 8px !important;
+}
+.images {
+  padding-top: 20px;
+}
+
+.colum {
+  text-align: left;
+}
+.res {
+  margin-top: 150px;
+}
+.img {
+  height: 500px;
+  width: 700px;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1024px) {
+  .res {
+    margin-top: 50px;
+  }
+  .img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 600px) {
+  .res {
+    margin-top: 30px;
+  }
+  .img {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.card-img {
+  height: auto !important;
+}
+.title {
+  text-align: center;
+  color: grey;
+  font-weight: bold !important;
+}
+.head {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  color: tomato;
+}
+.rows {
+  padding-top: 30px;
+}
+.card-c {
+  padding-top: 10px;
+  border: none !important;
+}
+
+.card-c:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.service {
+  align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .card-c {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  .service {
+    align-content: center;
+  }
+}
